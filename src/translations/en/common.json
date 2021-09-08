@@ -1,0 +1,118 @@
+{
+  "ui": {
+    "top_nav_tabs": {
+      "label_summary": "Summary",
+      "label_location": "Location",
+      "label_notes": "Notes"
+    },
+
+    "summary_tab": {
+      "label_wo_number": "WO#",
+      "label_sig_required": "Signature Required",
+      "label_status": "Status",
+      "label_barcode_canned": "Barcode Scanned",
+      "label_expected": "Expected",
+      "label_unmatched": "Unmatched",
+      "label_prod_summary": "Product Summary"
+    },
+
+    "location_tab": {
+      "search_textbox_placeholder": "Enter Location Name"
+    },
+
+    "product_by_loc_dialog": {
+      "title": "Products by Location"
+    },
+
+    "product_in_a_loc_dialog": {
+      "title": "Products in a Location"
+    },
+
+    "change_location_status_dialog": {
+      "title": "Change Location Status"
+    },
+
+    "scan_barcode_dialog": {
+      "title": "Scan Barcodes"
+    },
+
+    "change_wo_status_dialog": {
+      "title": "Change WO Status"
+    },
+
+    "change_woli_status_dialog": {
+      "title": "Change WO Item Status"
+    },
+
+    "complete_wo_popup": {
+      "title": "Complete Work Order"
+    },
+
+    "notes_tab": {
+      "label_sign_in_out": "Security Sign In & Out",
+      "label_Key_card_required": "Key Card Required",
+      "label_escort_required": "Escort Required",
+      "label_meet_with_contact": "Meet with Contact Prior to Work",
+      "label_designated_parking": "Designated Parking Location",
+      "label_special_instructions": "Special Internal Instructions",
+      "label_notes": "Notes"
+    },  
+
+    "shared": {
+      "label_cannot_complete_reason": "Cannot complete reason",
+      "label_cannot_complete_detail": "Cannot complete detail",
+      "bluetooth_scanner_textbox_placeholder": "Use bluetooth barcode scanner",
+      "btn": {
+        "btn_cancel": "Cancel",
+        "btn_complete": "Complete",
+        "btn_cannot_complete": "Cannot Complete",
+        "btn_dismiss": "Dismiss",
+        "btn_save": "Save",
+        "btn_scan": "Scan",
+        "btn_barcodes": "Barcodes"
+      }
+    }
+  },
+
+  "msg": {
+    "complete_network_error": "Device is offline.",
+    "complete_signature_error": "Signature is required. Please capture signature before complete work order.",
+    "complete_product_error": "There are incomplete products.",
+    "complete_confirmation_question": "Are you sure you want to complete this work order now?",
+    "location_notes": "Location Notes",
+    "wo_service_type_error": "You can only choose this option for Hygiene Recurring service work orders.",
+    "wo_detail_report_error": "You can only choose when customer does not require detail service report.",
+    "wo_status_error": "This feature is not available for Work Order in Dispatched or On Route status."
+  },
+  "data": {
+    "status_enums": {
+      "InProgress": "In Progress",
+      "Completed": "Completed",
+      "CannotComplete": "Cannot Complete",
+      "OnSite": "On Site",
+      "Dispatched": "Dispatched",
+      "OnRoute": "On Route",
+      "New": "New"
+    },
+    "reason_enums": {
+      "BrokenUnit": "Broken Unit",
+      "Closed": "Closed",
+      "Construction/Renovation": "Construction / Renovation",
+      "Misc/Other": "Misc. / Other",
+      "MissingUnit": "Missing Unit",
+      "NoAccess": "No Access",
+      "NoBarCode": "No Bar Code",
+      "Notready": "Not ready",
+      "RefusedService": "Refused Service",
+      "ScannerMalfunction": "Scanner Malfunction",
+      "StallLocked": "Stall Locked",
+      "Vacant": "Vacant",
+      "Couldnotfindunit": "Could not find unit",
+      "BackOrder": "Back Order",
+      "Cancelled": "Cancelled",
+      "LockedfromInside": "Locked from Inside",
+      "PetinUnit": "Pet in Unit",
+      "COVID19Related": "COVID 19 Related"
+    }
+  }
+}

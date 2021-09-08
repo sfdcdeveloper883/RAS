@@ -1,0 +1,117 @@
+{
+  "ui": {
+    "top_nav_tabs": {
+      "label_summary": "Sommaire",
+      "label_location": "Emplacement",
+      "label_notes": "Notes"
+    },
+
+    "summary_tab": {
+      "label_wo_number": "BT#",
+      "label_sig_required": "Signature requise",
+      "label_status": "Status",
+      "label_barcode_canned": "Codes à barres numérisés",
+      "label_expected": "Prévu",
+      "label_unmatched": "Dépareillé",
+      "label_prod_summary": "Sommaire des produits"
+    },
+
+    "location_tab": {
+      "search_textbox_placeholder": "Entrez le nom de l'emplacement"
+    },
+
+    "product_by_loc_dialog": {
+      "title": "Produit par emplacement (TBD)"
+    },
+
+    "product_in_a_loc_dialog": {
+      "title": "Produit dans un endroit (TBD)"
+    },
+
+    "change_location_status_dialog": {
+      "title": "Changer le status de l'emplacement"
+    },
+
+    "scan_barcode_dialog": {
+      "title": "Nnumériser les codes à barres"
+    },
+
+    "change_wo_status_dialog": {
+      "title": "Modifier le statut (TBD)"
+    },
+
+    "change_woli_status_dialog": {
+      "title": "Change WO Item Status (FR)"
+    },
+
+    "complete_wo_popup": {
+      "title": "Compléter le bon de travail"
+    },
+
+    "notes_tab": {
+      "label_sign_in_out": "Signature à l'entrée et sortie pour la Sécurité",
+      "label_Key_card_required": "Carte d'accès requise",
+      "label_escort_required": "Escort Required (TBD)",
+      "label_meet_with_contact": "Rencontrer le contact avant de commencer",
+      "label_designated_parking": "Espace de stationnement désigné",
+      "label_special_instructions": "Instructions spéciales internes",
+      "label_notes": "Notes"
+    },  
+
+    "shared": {
+      "label_cannot_complete_reason": "Raisons pour services non-complétés",
+      "label_cannot_complete_detail": "Détails des non-complétés",
+      "bluetooth_scanner_textbox_placeholder": "Utiliser le numérisateur Bluetooth",
+      "btn": {
+        "btn_cancel": "Annulé",
+        "btn_complete": "Complété",
+        "btn_cannot_complete": "Ne peux être complété",
+        "btn_dismiss": "Rejeter",
+        "btn_save": "Sauvegarder (TBD)",
+        "btn_scan": "Numérisé",
+        "btn_barcodes": "Codes à barres (TBD)"
+      }
+    }
+  },
+  "msg": {
+    "complete_network_error": "L'Appareil est hors ligne",
+    "complete_signature_error": "Signature requise. Aller chercher une signature avant de compléter le bon de travail.",
+    "complete_product_error": "Il y a un produit non-complété. Voulez-vous compléter ce bon de travail maintenant (TBD)?",
+    "complete_confirmation_question": "Are you sure you want to complete this work order now? (FR)",
+    "location_notes": "Notes sur l'emplacement",
+    "wo_service_detail_error": "You can only choose this option for Hygiene recurring service work orders when customer does not require detail service report. (FR)",
+    "wo_detail_report_error": "You can only choose when customer does not require detail service report. (FR)",
+    "wo_status_error": "This feature is not available for Work Order in Dispatched or On Route status. (FR)"
+  },
+  "data": {
+    "status_enums": {
+      "InProgress": "En progrès",
+      "Completed": "Complété",
+      "CannotComplete": "Ne peux être complété",
+      "OnSite": "Sur place",
+      "Dispatched": "Réparti",
+      "OnRoute": "Sur la route",
+      "New": "Nouveau"
+    },
+    "reason_enums": {
+      "BrokenUnit": "Appareil brisé",
+      "Closed": "Fermé",
+      "Construction/Renovation": "Contruction / Rénovation",
+      "Misc/Other": "Divers / Autres",
+      "MissingUnit": "Unité manquant",
+      "NoAccess": "Pas d'accès",
+      "NoBarCode": "Pas de codes à barres",
+      "Notready": "Pas prêt",
+      "RefusedService": "Service refusé",
+      "ScannerMalfunction": "Scanneur défectueux",
+      "StallLocked": "Cabinets barrés",
+      "Vacant": "Vacant",
+      "Couldnotfindunit": "Unité non-trouvée",
+      "BackOrder": "Commande en attente",
+      "Cancelled": "Annulé",
+      "LockedfromInside": "Barré de l'intérieur",
+      "PetinUnit": "Animal de compagnie à l'intérieur",
+      "COVID19Related": "Relatif à la COVID-19"
+    }
+  }
+}
